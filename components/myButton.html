@@ -1,0 +1,19 @@
+<link rel="import" href="../assets/js/polymer/polymer.html">
+<polymer-element name="myButton" attributes="value">
+
+    <template>
+         <style>
+           input{
+           	  color:red;
+           }
+         </style>
+        <input type="button" value="{{value}}">
+    </template>
+
+    <script>
+        Polymer('myButton', {
+            value: 'Click me!'
+        });
+    </script>
+
+</polymer-element>

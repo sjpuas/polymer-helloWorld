@@ -1,0 +1,12 @@
+{
+    "name": "polymer-helloWorld",
+    "version": "0.1",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.4.0"
+    }
+}
