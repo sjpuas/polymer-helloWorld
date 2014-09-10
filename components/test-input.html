@@ -1,17 +1,18 @@
 <link rel="import" href="../assets/js/polymer/polymer.html">
 
-<polymer-element name="caca">
+<polymer-element name="test-input" attributes="value,id">
     <template>
          <style>
            input{
            	  color:red;
            }
          </style>
-        <input type="button" value="ass">
+        <input type="text" value="{{value}}" id="{{id}}">
     </template>
 
     <script>
-         Polymer({
+         Polymer('test-input',{
+           value:"dasdasd"
          });
     </script>
 </polymer-element>
